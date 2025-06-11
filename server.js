@@ -5,11 +5,12 @@ require('dotenv').config();
 const path=require('path');
 const expenseRoutes = require('./routes/expenseRoutes');
 const settlementRoutes = require('./routes/settlementRoutes');
+const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
-const app = express();
+
 app.use(cors());
 app.use(express.json());
 
