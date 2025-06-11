@@ -1,4 +1,4 @@
-const API = "https://your-deployed-backend-url"; // Replace with actual deployed URL
+const API = "https://split-app-production-7372.up.railway.app"; // Replace with actual deployed URL
 
 document.getElementById("expenseForm").addEventListener("submit", async (e) => {
   e.preventDefault();
