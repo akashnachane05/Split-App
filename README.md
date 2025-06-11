@@ -3,13 +3,13 @@
 ## 📌 Project Overview
 A backend system to split group expenses fairly and calculate simplified settlements.
 
-## 🚀 Hosted Backend
-🔗 https://your-backend-host.railway.app
+## 🚀 Hosted Backend & Frontend
+🔗 https://split-app-production-7372.up.railway.app/
 
 ## ⚙️ Tech Stack
 - Node.js + Express
 - MongoDB Atlas
-- Railway / Render
+- Railway
 
 ## 📂 API Endpoints
 
@@ -47,11 +47,4 @@ Each person's share is calculated equally among participants.
 Balances are computed by comparing paid vs fair share.
 Settlements minimize number of transactions between people.
 
-## 🛠️ Setup Locally
-```bash
-git clone <your-repo>
-cd split-app-backend
-npm install
-cp .env.example .env
-# Add MongoDB URI in .env
-npm run dev
+
