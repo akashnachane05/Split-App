@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Split App Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-light">
+
+  <div class="container py-4">
+    <h1 class="mb-4 text-center">💸 Split App Dashboard</h1>
+
+    <!-- Add Expense Form -->
+    <div class="card mb-4">
+      <div class="card-header">Add Expense</div>
+      <div class="card-body">
+        <form id="expenseForm">
+          <div class="mb-2">
+            <label>Amount</label>
+            <input type="number" class="form-control" id="amount" required />
+          </div>
+          <div class="mb-2">
+            <label>Description</label>
+            <input type="text" class="form-control" id="description" required />
+          </div>
+          <div class="mb-2">
+            <label>Paid By</label>
+            <input type="text" class="form-control" id="paidBy" required />
+          </div>
+          <div class="mb-2">
+            <label>Participants (comma-separated)</label>
+            <input type="text" class="form-control" id="participants" placeholder="Shantanu, Sanket, Om" required />
+          </div>
+          <button class="btn btn-primary">Add Expense</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Dashboard Stats -->
+    <div class="card mb-4">
+      <div class="card-header">📊 Summary</div>
+      <div class="card-body" id="summaryStats">
+        <p><strong>Total People:</strong> <span id="personCount"></span></p>
+        <p><strong>Total Expenses:</strong> <span id="expenseCount"></span></p>
+      </div>
+    </div>
+
+    <!-- Balances Section -->
+    <div class="card mb-4">
+      <div class="card-header">🧮 Current Balances</div>
+      <div class="card-body">
+        <ul class="list-group" id="balanceList"></ul>
+      </div>
+    </div>
+
+    <!-- Settlements Section -->
+    <div class="card">
+      <div class="card-header">🤝 Settlements</div>
+      <div class="card-body">
+        <ul class="list-group" id="settlementList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
