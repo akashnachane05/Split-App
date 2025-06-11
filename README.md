@@ -1,4 +1,4 @@
-# DevDynamics Split App – Backend Assignment
+# Split App – Backend Assignment
 
 ## 📌 Project Overview
 A backend system to split group expenses fairly and calculate simplified settlements.
@@ -47,4 +47,8 @@ Each person's share is calculated equally among participants.
 Balances are computed by comparing paid vs fair share.
 Settlements minimize number of transactions between people.
 
+🛠️ Setup Instructions
+1. Clone the Repo
+git clone https://github.com/akashnachane05/Split-App.git
+cd Split-App
 
