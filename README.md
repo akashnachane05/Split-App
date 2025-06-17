@@ -25,7 +25,7 @@ A backend system to split group expenses fairly and calculate simplified settlem
 - GET /people
 
 ## 🧪 Postman Collection
-🔗 [Public Gist Link](https://gist.github.com/your-postman-gist)
+🔗 [Public Gist Link](https://gist.github.com/akashnachane05/59c9252c88e6d2f6dfbcaa9f83aa6a89)
 
 ## 🧾 Sample Test Data
 - People: Shantanu, Sanket, Om
